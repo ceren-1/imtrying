@@ -18,7 +18,7 @@ public class Item_Collector : MonoBehaviour
             collectionSoundEffect.Play();
             Destroy(collision.gameObject);
             chickens++;
-            chickensText.text = "Chickens: " + chickens;
+            chickensText.text = "Items: " + chickens;
         }
     }
 }
