@@ -4650,46 +4650,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 20, y: 1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 21, y: 1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 22, y: 1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 23, y: 1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 24, y: 1, z: 0}
     second:
       serializedVersion: 2
@@ -4732,25 +4692,25 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 9
+  - m_RefCount: 7
     m_Data: {fileID: 11400000, guid: 0a64c35c3034577409a0783c24cd883e, type: 2}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 9
+  - m_RefCount: 7
     m_Data: {fileID: 11400000, guid: 61ef422aa1d53734081d2734a210af17, type: 2}
   - m_RefCount: 6
     m_Data: {fileID: 11400000, guid: cb42b341bc0577344ba1e36d599570a2, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 9
+  - m_RefCount: 7
     m_Data: {fileID: -7824852797598258249, guid: 8fda79fe5fa579d4bb35b990f2d7d2bf, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 9
+  - m_RefCount: 7
     m_Data: {fileID: 381202169376143456, guid: 8fda79fe5fa579d4bb35b990f2d7d2bf, type: 3}
   - m_RefCount: 6
     m_Data: {fileID: 21300000, guid: 1efc14524702f8c4694fc4697517592f, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 24
+  - m_RefCount: 20
     m_Data:
       e00: 1
       e01: 0
@@ -4769,7 +4729,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 24
+  - m_RefCount: 20
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -4856,7 +4816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4865,12 +4825,12 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 80
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 80
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -4901,7 +4861,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -26.3834, y: -29.7249}
+  m_AnchoredPosition: {x: 63, y: 249}
   m_SizeDelta: {x: 1124.0654, y: 249.6782}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &962197796
@@ -5375,6 +5335,127 @@ PrefabInstance:
       propertyPath: dialogueWidget
       value: 
       objectReference: {fileID: 923675884}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.size
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[0]
+      value: "ALIEN: \u5EFE\u4E39\u5DE5\u7247\u51F5"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[1]
+      value: 'CHICKEN: What?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[2]
+      value: 'ALIEN: Oh, sorry. Hello.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[3]
+      value: 'CHICKEN: Who are you? Why am I here?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[4]
+      value: 'ALIEN: I''m the Grandmaster. I kidnapped you so I could have a human
+        friend.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[5]
+      value: 'CHICKEN: A human friend?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[6]
+      value: 'CHICKEN: I''m not a human though.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[7]
+      value: 'ALIEN: You... are not?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[8]
+      value: 'CHICKEN: Bok bok.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[9]
+      value: 'ALIEN: ...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[10]
+      value: 'CHICKEN: Let me go.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[11]
+      value: 'ALIEN: No.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[12]
+      value: 'CHICKEN: Let me go.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[13]
+      value: 'ALIEN: No.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[14]
+      value: 'CHICKEN: Let me go.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[15]
+      value: 'ALIEN: Fine. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[16]
+      value: 'ALIEN: But I have one condition.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[17]
+      value: 'CHICKEN: Condition?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[18]
+      value: 'ALIEN: Make me a human friend, and I''ll let you go.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[19]
+      value: 'ALIEN: Deal?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[20]
+      value: 'CHICKEN: How does one even make a human?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[21]
+      value: 'ALIEN: Just collect floating meat things at each level.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[22]
+      value: 'CHICKEN: And then..?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[23]
+      value: "ALIEN: Voil\xE0! A human!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108845, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: dialogueToSay.Array.data[24]
+      value: 'CHICKEN: Okay. Bok bok.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108846, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: m_Size.x
+      value: 5.94028
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108846, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: m_Size.y
+      value: 1.9091926
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108846, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: m_Offset.x
+      value: -1.39428
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888847255103108846, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.5022154
+      objectReference: {fileID: 0}
     - target: {fileID: 7937924656484419360, guid: ee8764bd6c3a45746b97921db35b8957, type: 3}
       propertyPath: m_RootOrder
       value: 11
